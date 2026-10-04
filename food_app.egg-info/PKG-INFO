@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: food_app
+Version: 0.1.0
+Summary: Food Order App Core Package
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: sqlmodel
+Requires-Dist: nicegui
+Requires-Dist: pydantic-settings
+Requires-Dist: icecream

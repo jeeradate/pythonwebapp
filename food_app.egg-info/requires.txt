@@ -1,0 +1,4 @@
+sqlmodel
+nicegui
+pydantic-settings
+icecream

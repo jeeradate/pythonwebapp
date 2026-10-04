@@ -1,0 +1,8 @@
+pyproject.toml
+food_app.egg-info/PKG-INFO
+food_app.egg-info/SOURCES.txt
+food_app.egg-info/dependency_links.txt
+food_app.egg-info/requires.txt
+food_app.egg-info/top_level.txt
+food_app/core/config.py
+food_app/core/database.py

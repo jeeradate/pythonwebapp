@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "food_app"
+version = "0.1.0"
+description = "Food Order App Core Package"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "sqlmodel",
+    "nicegui",
+    "pydantic-settings",
+    "icecream"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["food_app*"]
+
+[tool.mypy]
+python_version = "3.10"
+ignore_missing_imports = true
+plugins = ["pydantic.mypy"]
+
+[[tool.mypy.overrides]]
+module = "food_app.*"
+ignore_missing_imports = false
