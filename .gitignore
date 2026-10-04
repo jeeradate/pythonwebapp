@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment (ห้าม Push เข้า Git เด็ดขาด)
+.venv/
+env/
+venv/
+ENV/
+
+# Local Database Files (ห้าม Push Data ในเครื่องขึ้น Git)
+*.db
+*.sqlite3
+
+# Environment & Secret Variables (ห้าม Push API Keys / Passwords)
+.env
+.env.local
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+
+# OS Generated Files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Log Files
+*.log
