@@ -7,14 +7,14 @@ Food Order App เป็นระบบเว็บสำหรับบริ�
 ลูกค้าสามารถ Scan QR Code เพิอเปิด Order และเริ่มสั่งอาหาร โดยดูจาก Menu ในแอปมือถือ หรือจะสั่งผ่านพนักงาน หรือพร้อมกัน โดยจะรวมคำสั่งไว้ใน Order เดียวกัน 
 
 ## แนวทางในการพัฒนา
-- โครงการนี้อยู่ที่ https://github.com/jeeradate/foodorderapp
+- โครงการนี้อยู่ที่ https://github.com/jeeradate/pythonwebapp
 - ขบวนการพัฒนาทั้งหมดจะใช้ Git Branching & Merging Process
 - โดยจะสร้าง Branch ใน Git/Github เมื่อจะค่อยๆ เพิ่มความสามารถโปรแกรม 
 - โดยใช้ AI โดยเฉพาะ Gemini Gems ที่รู้โครงสร้างจาก File นี้ เขียนทีละส่วนให้ 
 - ทกสอบจนมั่นใจแล้วจึง Merging กับ Main Branch 
 - และเริ่มวงจร Git Branching & Merging Process ในรอบต่อๆ ไป
 - ไม่ได้ใช้ AI Agent เพราะผู้พัฒนาจะได้เรียนรู้ ภาษา Python ไปด้วย 
-- ความรู้ต่างๆ ที่ใช้ในการทำโปรแกรม เก็บไว้ที่ https://github.com/jeeradate/foodorderapp/blob/main/learning/PyWebApp/Welcome.md
+- ความรู้ต่างๆ ที่ใช้ในการทำโปรแกรม เก็บไว้ที่ https://github.com/jeeradate/pythonwebapp/blob/main/learning/PyWebApp/Welcome.md
 
 ## โครงสร้างข้อมูลหลัก
 
